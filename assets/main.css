@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'MyFont';
+    src: url('fonts/Muli/Muli-VariableFont_wght.ttf')
+}
+
+body{
+    margin-left: 0;
+    font-family: MyFont;
+}
+
+.parent-photo{
+    display:flex;
+    width:1200px;
+    margin: 10px 20px 0px 20px;
+    justify-content: space-around;
+}
+
+img{
+    padding:20px;
+    padding-bottom: 10px;
+    width:400px;
+    height:400px;
+}
+
+.parent-text{
+    display:flex;
+    width:1200px;
+    margin: 10px 20px 0px 20px;
+    justify-content: space-around;
+}
+
+.item2{
+    width:300px;
+    height:400px;
+    text-align: center;
+}
+
+p.item-title {
+    font-size: 18px;
+}
+
+.item2 i, span{
+    font-size: 13px;
+}
+
+.item2 span{
+    color: grey;
+    padding: 0px 20px 0px 6px;
+}
+
+.fa-heart{
+    color: rgb(235, 235, 235);
+}
+
+.fa-star{
+    color:rgb(238, 157, 52);
+    padding-left: 15px;
+}
+
+div.item2:nth-child(2) > .fa-heart{
+    color:red;
+}
+
+p.item-description {
+    color: grey;
+    font-size: 13px;
+    padding: 10px; 
+}
+
+button {
+    box-sizing: border-box;
+    border-style:none ;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: 'MyFont'
+    -webkit-font-smoothing: antialiased;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.cart{
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.view{
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    color: black;
+}
